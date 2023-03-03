@@ -1,0 +1,118 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/*body section */
+.main {
+  height: 100vh;
+  width: 100vw;
+  /* border: 1px solid red; */
+}
+
+/*subitem design*/
+.main-item-1 {
+  width: 100%;
+  max-height: 419px;
+  /* border: 1px solid black; */
+}
+
+/*travel design*/
+.Travel {
+  text-align: center;
+  margin: 10px auto;
+  width: 60%;
+  min-height: 200px;
+  border: 1px solid rgb(77, 65, 65);
+  overflow: hidden;
+}
+#TravelHead {
+  font-size: x-large;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+}
+#TravelBtn {
+  padding: 2px 30px 2px 30px;
+  background-color: rgb(140, 242, 242);
+  color: rgb(44, 38, 38);
+  border: none;
+  margin-top: 3em;
+  border-radius: 1em;
+  font-size: medium;
+  box-shadow: 10px 10px 10px rgb(248, 243, 243);
+  cursor: pointer;
+}
+
+/*subTravelsection design*/
+.TravelSection {
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  /* border: 1px solid red; */
+  /* min-height: 200px; */
+  margin-top: 1rem;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#TravelSourceId,
+#TravelDestination,
+#To {
+  font-size: large;
+  /* font-weight: bold; */
+  font-family: sans-serif;
+}
+#SourceListId,
+#DestinationListId {
+  padding: 5px 80px 5px 80px;
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+/* main-item-2 */
+/* Table section */
+.main-item-2 {
+  width: 50%;
+  border: 1px solid rgb(53, 49, 49);
+  margin: 30px auto;
+  min-height: 200px;
+  overflow: hidden;
+}
+.main-item-3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.TableList {
+  text-align: center;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#TravelListId {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+@media (max-width:845px){
+  .TravelSection{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+}
